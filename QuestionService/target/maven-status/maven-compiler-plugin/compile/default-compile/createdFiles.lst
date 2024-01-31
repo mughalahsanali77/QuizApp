@@ -1,0 +1,8 @@
+app\quiz\service\quiz\QuestionServiceApplication.class
+app\quiz\service\quiz\dtos\QuestionDto.class
+app\quiz\service\quiz\entities\QuestionEntity.class
+app\quiz\service\quiz\controllers\QuestionController.class
+app\quiz\service\quiz\servicesImpl\QuestionServiceImpl.class
+app\quiz\service\quiz\transformers\QuestionTransformer.class
+app\quiz\service\quiz\repositories\QuestionRepository.class
+app\quiz\service\quiz\services\QuestionService.class
