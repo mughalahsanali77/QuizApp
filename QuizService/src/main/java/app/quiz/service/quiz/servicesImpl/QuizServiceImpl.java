@@ -1,11 +1,11 @@
 package app.quiz.service.quiz.servicesImpl;
 
-import app.quiz.common.healper.CustomException;
-import app.quiz.service.quiz.dtos.QuizDto;
-import app.quiz.service.quiz.entities.QuizEntity;
+import app.quiz.common.helper.CustomException;
+import app.quiz.core.dto.QuizDto;
+import app.quiz.core.repository.QuizRepository;
+import app.quiz.core.transformer.QuizTransformer;
+import app.quiz.entites.QuizEntity;
 import app.quiz.service.quiz.services.QuizService;
-import app.quiz.service.quiz.repositories.QuizRepository;
-import app.quiz.service.quiz.transformers.QuizTransformer;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.util.ObjectUtils;

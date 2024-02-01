@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Common/Common.iml" filepath="$PROJECT_DIR$/Common/Common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Core/Core.iml" filepath="$PROJECT_DIR$/Core/Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Entities/Entities.iml" filepath="$PROJECT_DIR$/Entities/Entities.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuestionService/QuestionService.iml" filepath="$PROJECT_DIR$/QuestionService/QuestionService.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuizApp.iml" filepath="$PROJECT_DIR$/QuizApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/QuizService/QuizService.iml" filepath="$PROJECT_DIR$/QuizService/QuizService.iml" />

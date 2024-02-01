@@ -1,6 +1,8 @@
 package app.quiz.service.quiz.services;
 
-import app.quiz.service.quiz.dtos.QuizDto;
+
+
+import app.quiz.core.dto.QuizDto;
 
 import java.util.List;
 

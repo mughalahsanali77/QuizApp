@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,10 +10,14 @@
         <module name="QuizService" />
         <module name="QuestionService" />
         <module name="Common" />
+        <module name="Entities" />
+        <module name="Core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Common" target="17" />
+      <module name="Core" target="17" />
+      <module name="Entities" target="17" />
       <module name="QuestionService" target="17" />
       <module name="QuizApp" target="1.5" />
       <module name="QuizService" target="17" />
@@ -21,6 +26,8 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Common" options="-parameters" />
+      <module name="Core" options="-parameters" />
+      <module name="Entities" options="-parameters" />
       <module name="QuestionService" options="-parameters" />
       <module name="QuizApp" options="-parameters" />
       <module name="QuizService" options="-parameters" />

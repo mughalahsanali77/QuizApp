@@ -1,6 +1,6 @@
 package app.quiz.service.quiz.controllers;
 
-import app.quiz.service.quiz.dtos.QuizDto;
+import app.quiz.core.dto.QuizDto;
 import app.quiz.service.quiz.services.QuizService;
 import lombok.AllArgsConstructor;
 import org.springframework.web.bind.annotation.*;

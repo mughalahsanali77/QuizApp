@@ -1,9 +1,4 @@
 app\quiz\service\quiz\controllers\QuizController.class
-app\quiz\service\quiz\repositories\QuizRepository.class
 app\quiz\service\quiz\QuizServiceApplication.class
-app\quiz\service\quiz\entities\QuizEntity.class
-app\quiz\service\quiz\transformers\QuizTransformer.class
-app\quiz\service\quiz\dtos\QuizDto.class
 app\quiz\service\quiz\servicesImpl\QuizServiceImpl.class
 app\quiz\service\quiz\services\QuizService.class
-app\quiz\service\quiz\helper\CustomException.class

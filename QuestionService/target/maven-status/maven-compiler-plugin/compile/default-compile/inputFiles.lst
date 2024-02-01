@@ -1,8 +1,4 @@
-D:\QuizApp\QuestionService\src\main\java\app\quiz\service\quiz\repositories\QuestionRepository.java
-D:\QuizApp\QuestionService\src\main\java\app\quiz\service\quiz\entities\QuestionEntity.java
-D:\QuizApp\QuestionService\src\main\java\app\quiz\service\quiz\services\QuestionService.java
-D:\QuizApp\QuestionService\src\main\java\app\quiz\service\quiz\controllers\QuestionController.java
-D:\QuizApp\QuestionService\src\main\java\app\quiz\service\quiz\dtos\QuestionDto.java
-D:\QuizApp\QuestionService\src\main\java\app\quiz\service\quiz\servicesImpl\QuestionServiceImpl.java
-D:\QuizApp\QuestionService\src\main\java\app\quiz\service\quiz\transformers\QuestionTransformer.java
-D:\QuizApp\QuestionService\src\main\java\app\quiz\service\quiz\QuestionServiceApplication.java
+D:\QuizApp\QuestionService\src\main\java\app\quiz\service\question\QuestionServiceApplication.java
+D:\QuizApp\QuestionService\src\main\java\app\quiz\service\question\servicesImpl\QuestionServiceImpl.java
+D:\QuizApp\QuestionService\src\main\java\app\quiz\service\question\services\QuestionService.java
+D:\QuizApp\QuestionService\src\main\java\app\quiz\service\question\controllers\QuestionController.java
