@@ -1,4 +1,4 @@
-package app.quiz.entites;
+package app.quiz.entities;
 import jakarta.persistence.*;
 import lombok.*;
 

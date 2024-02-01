@@ -1,4 +1,0 @@
-app\quiz\service\question\services\QuestionService.class
-app\quiz\service\question\servicesImpl\QuestionServiceImpl.class
-app\quiz\service\question\controllers\QuestionController.class
-app\quiz\service\question\QuestionServiceApplication.class

@@ -8,9 +8,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 
-@EntityScan(basePackages = {"app.quiz.entities.QuizEntity"})
+@EntityScan(basePackages = {"app.quiz.entities"})
 @EnableJpaRepositories(basePackages = {"app.quiz.core.repository"})
-@ComponentScan(basePackages = {"app.quiz.core","app.quiz.core.transformer"})
+@ComponentScan(basePackages = {"app.quiz.core.transformer","app.quiz.service.quiz"})
 @SpringBootApplication
 public class QuizServiceApplication {
     public static void main(String[] args) {

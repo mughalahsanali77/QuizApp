@@ -4,7 +4,7 @@ import app.quiz.common.helper.CustomException;
 import app.quiz.core.dto.QuizDto;
 import app.quiz.core.repository.QuizRepository;
 import app.quiz.core.transformer.QuizTransformer;
-import app.quiz.entites.QuizEntity;
+import app.quiz.entities.QuizEntity;
 import app.quiz.service.quiz.services.QuizService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;

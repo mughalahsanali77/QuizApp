@@ -1,7 +1,7 @@
 package app.quiz.core.transformer;
 
 import app.quiz.core.dto.QuizDto;
-import app.quiz.entites.QuizEntity;
+import app.quiz.entities.QuizEntity;
 import org.springframework.stereotype.Component;
 import org.springframework.util.ObjectUtils;
 import org.springframework.util.StringUtils;

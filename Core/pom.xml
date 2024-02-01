@@ -23,6 +23,12 @@
         <dependency>
             <groupId>app.quiz.entites</groupId>
             <artifactId>Entities</artifactId>
+            <version>0.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>app.quiz.common</groupId>
+            <artifactId>Common</artifactId>
+            <version>0.0.1</version>
         </dependency>
     </dependencies>
 
