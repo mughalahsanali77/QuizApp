@@ -1,8 +1,10 @@
 package app.quiz.service.quiz.controllers;
 
+import app.quiz.common.util.ResponseUtil;
 import app.quiz.core.dto.QuizDto;
 import app.quiz.service.quiz.services.QuizService;
 import lombok.AllArgsConstructor;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -14,23 +16,28 @@ public class QuizController {
     private final QuizService quizService;
 
     @GetMapping("/all")
-    public List<QuizDto> get(){
-        return quizService.get();
+    public ResponseEntity<Object> get(){
+        List<QuizDto> list = quizService.get();
+        return ResponseUtil.returnResponse(list);
     }
     @GetMapping("findById/{id}")
-    public QuizDto get(@PathVariable String id){
-        return quizService.get(id);
+    public ResponseEntity<Object> get(@PathVariable String id){
+        QuizDto quizDto = quizService.get(id);
+        return ResponseUtil.returnResponse(quizDto);
     }
     @PostMapping("/create")
-    public QuizDto create(@RequestBody QuizDto quizDto){
-        return quizService.add(quizDto);
+    public ResponseEntity<Object>create(@RequestBody QuizDto quizDto){
+        QuizDto dto = quizService.add(quizDto);
+        return ResponseUtil.returnResponse(dto);
     }
     @PutMapping()
-    public QuizDto update(@RequestBody QuizDto quizDto){
-        return quizService.update(quizDto);
+    public ResponseEntity<Object> update(@RequestBody QuizDto quizDto){
+        QuizDto dto = quizService.update(quizDto);
+        return ResponseUtil.returnResponse(dto);
     }
     @DeleteMapping("/{id}")
-    public QuizDto delete(@PathVariable String id){
-        return quizService.delete(id);
+    public ResponseEntity<Object> delete(@PathVariable String id){
+        QuizDto dto = quizService.delete(id);
+        return ResponseUtil.returnResponse(dto);
     }
 }
